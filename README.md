@@ -16,6 +16,7 @@ Only with Linux
 1. Clone the code into ResPi
 2. Compile using `src/Makefile`
 3. Run with command `cat [.raw file] | [compiled executable]  [mode] | aplay -c 2 -f S16_LE -r [audio sampling frequency in Hz]`
+4. Sample .raw files could be found in Release
 
 ResPi with NESDR Smart SDRs
 1. Clone the code into ResPi

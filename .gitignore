@@ -1,0 +1,42 @@
+
+# Ignore all files by default
+*
+
+# Apply exceptions to the following
+
+# Updates to .gitignore
+!.gitignore
+
+# Do not ignore exceptions from the following sub-folders
+!model/
+!src/
+!data/
+!doc/
+!test/
+!build/
+!include/
+
+# The following file types are treated as exceptions
+
+# Markdown, text and pdf files for documentation
+!*.md
+
+
+# Python files
+!*.py
+
+# C/C++/header files
+!*.cpp
+!*.c
+!*.h
+!Makefile
+!makefile
+
+# Files used for drawing
+!*.gnuplot
+
+# Sample Raw
+!*.raw
+
+# do NOT commit and push large binary files used for debugging
+
